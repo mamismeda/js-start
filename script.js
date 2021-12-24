@@ -10,7 +10,7 @@ console.log(myscript.startsWith(" "));
 console.log(myscript.toUpperCase());
 console.log(myscript.trim());
 
-let pic = "images/layer 20.png"
+let pic = "images/layer.png"
 let tran = ` Michael Jordan `;
 let nodex = `NODIA U.P`;
 let interFace = `User interface designer and fornt-end developer`;
@@ -32,7 +32,7 @@ let botScript = `
            <p>PRO</p>
        </div>
        <div class="pict m-auto mb-4">
-        <img class="img-fluid" src="" alt="wick">
+        <img class="img-fluid" src="${pic}" alt="wick">
       </div>
         <h3>${tran}</h3>
         <h6>${nodex}</h6>
